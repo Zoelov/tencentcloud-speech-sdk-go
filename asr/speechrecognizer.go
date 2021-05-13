@@ -129,7 +129,7 @@ func NewSpeechRecognizer(appID string, credential *common.Credential, engineMode
 		AppID:           appID,
 		Credential:      credential,
 		EngineModelType: engineModelType,
-		VoiceFormat:     defaultVoiceFormat,
+		VoiceFormat:     12,
 		NeedVad:         defaultNeedVad,
 		WordInfo:        defaultWordInfo,
 
